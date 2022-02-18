@@ -1,0 +1,12 @@
+minimum_pre_commit_version: 2.15.0
+default_language_version: {}
+default_stages: [commit]
+repos: # TODO update to match Sparkgeo defaults.
+  -   repo: https://github.com/timothycrosley/isort
+      rev: 5.9.2
+      hooks:
+      - id: isort
+  -   repo: https://github.com/psf/black
+      rev: 21.5b1
+      hooks:
+      - id: black
