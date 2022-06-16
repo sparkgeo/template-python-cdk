@@ -4,7 +4,7 @@ from cdk.main import MainStack
 from cdk.settings import PROJECT_SETTINGS
 
 tags = {
-    "Owner": "team@maxar.com",  # TODO: Update email
+    "Owner": "team@mycompany.com",  # TODO: Update email
     "Environment": PROJECT_SETTINGS.env_id,
     "Git Branch": PROJECT_SETTINGS.branch_name,
 }
